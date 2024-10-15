@@ -79,12 +79,7 @@ def home():
     - **Tools**: TensorFlow, Keras, Pandas, Numpy, Matplotlib, Seaborn, scikit-learn, ARIMA, Prophet, NLTK, OpenCV, YOLO V3, Databricks, Dataiku, Datarobot
     """)
 
-    # Projects Section
-    st.header("Hobby Projects")
-    st.write("[**JusPy**: Personal ML Library | pip install juspy](https://pypi.org/project/juspy/)")
-    st.write("[**Computer Vision Based Retail Store Analysis**](http://storeanalysiscv.jaspreetblogs.in)")
-
     # Education Section
     st.header("Education")
-    st.write("**BITS Pilani** - M.Tech in AI & ML (2023 - 2025)")
-    st.write("**LPU** - B.Tech in Computer Science (2014 - 2018)")
+    st.write("**M.Tech in AI & ML (2023 - 2025)** - BITS Pilani")
+    st.write("**B.Tech in Computer Science (2014 - 2018)** - LPU")
