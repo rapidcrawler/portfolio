@@ -1,8 +1,7 @@
 import streamlit as st
 
-def emoji_suggestion():
-    st.title("Emoji Suggestion 😇🧐")
-    st.write("[Code Notebook](https://github.com/rapidcrawler/hobby_projects/tree/main/emoji_recommender)")
+def smart_store():
+    st.title("Smart Stores 🛒")
     
     # Create two columns for image and name/introduction
     col1, col2, col3 = st.columns([3,1,3])  # Adjust the width ratio as needed
@@ -49,4 +48,5 @@ def emoji_suggestion():
         """
         , unsafe_allow_html=True)
     
-    
+    # Displaying Sample Video
+    st.video("https://github.com/rapidcrawler/hobby_projects/raw/refs/heads/main/comp_vision_topics/02_Object_Detection_With_SSD/Motion_Tracker_00.mp4")
