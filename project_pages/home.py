@@ -34,7 +34,10 @@ def home():
     # Experience Section
     st.header("Experience")
 
-    # Job 1: Maaloomatiia
+    # Job 3: Maaloomatiia
+    st.markdown('<a name="maaloomatiia"></a>', unsafe_allow_html=True)
+    st.text("")
+    st.text("")
     st.subheader("Senior Data Scientist - Maaloomatiia")
     st.write("**Sep 2023 - Present**")
     st.write("""
@@ -47,6 +50,9 @@ def home():
     """)
 
     # Job 2: JP Morgan
+    st.markdown('<a name="jpmc"></a>', unsafe_allow_html=True)
+    st.text("")
+    st.text("")
     st.subheader("Senior Data Scientist - JP Morgan")
     st.write("**Feb 2022 - Sep 2023**")
     st.write("""
@@ -54,7 +60,10 @@ def home():
     - Developed an XGBoost-based classification model to streamline client migration, reducing operational and maintenance costs.
     """)
 
-    # Job 3: Mu Sigma
+    # Job 1: Mu Sigma
+    st.markdown('<a name="musigma"></a>', unsafe_allow_html=True)
+    st.text("")
+    st.text("")
     st.subheader("Data Scientist - Mu Sigma")
     st.write("**Dec 2018 - Jan 2022**")
     st.write("""
