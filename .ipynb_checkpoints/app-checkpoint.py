@@ -10,7 +10,7 @@ from project_pages.campaign_analytics import campaign_analytics
 # Set the page configuration
 st.set_page_config(
     page_title="Hobby Projects - Jaspreet",
-    page_icon=":bar_chart:",
+    page_icon=":briefcase:",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
@@ -21,7 +21,10 @@ st.set_page_config(
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
-project_list = ["Home",  "Smart Stores", "Emoji Suggestion", "Complaint Classification", "Campaign Analytics", "eMail Classifier"]
+project_list = [
+    "Home",  "Smart Stores", "Emoji Suggestion", "Complaint Classification"
+    , "Campaign Analytics", "eMail Classifier"
+]
 page = st.sidebar.selectbox("Choose a Project", project_list)
 
 # Page selection
