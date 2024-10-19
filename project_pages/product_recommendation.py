@@ -94,7 +94,7 @@ def product_recommendation():
             st.divider()
             st.write(f"Displaying {max_prod_recco} Suggestions")
             similar_products = [descriptions[i] for i in indices[0]]
-            for idx, product in enumerate(similar_products, start=1):
+            for idx, product in enumerate(similar_products[1:], start=1):
                 st.write(f"**{idx}: {product}**")
 
             
