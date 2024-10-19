@@ -3,7 +3,6 @@ nbformat
 pandas
 numpy
 matplotlib
-mpl_toolkits
 seaborn
 sklearn
 statsmodels
