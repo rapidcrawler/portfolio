@@ -31,9 +31,9 @@ project_list = [
     "🏘️Home"
     , "Campaign Analytics📺", "Product Recommender🛍️"
     , "Emoji Suggestion😇🧐", "Smart Stores🛒", "Loan Eligibility🏛️💰"
-    , "Hot & Trendy🔥✨"
-    # , "Cab Complaint Classification🤬", "eMail Classifier"
+    , "Hot & Trendy🔥✨"    
     , "Live Face Detection"
+    # , "Cab Complaint Classification🤬", "eMail Classifier"
     
 ]
 page = st.sidebar.selectbox("Choose a Project", project_list)
@@ -61,11 +61,11 @@ elif page == project_list[6]:
     hat()
     
 elif page == project_list[7]:
-    complaint_classification()
+    face_detect()
 
 elif page == project_list[8]:
-    email_clf()
+    complaint_classification()
     
 elif page == project_list[9]:
-    face_detect()
+    email_clf()
     
