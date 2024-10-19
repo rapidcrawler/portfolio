@@ -8,7 +8,7 @@ def product_recommendation():
     st.title("Product Recommender 🛍️")
     # Step 1: Define product descriptions
     descriptions = [
-        "This is a red cotton shirt with long sleeves",
+        "A red cotton shirt with long sleeves",
         "Blue denim jeans with slim fit design",
         "Comfortable leather shoes in black color",
         "Casual t-shirt with cool graphic print",
@@ -83,12 +83,15 @@ def product_recommendation():
         
             # Perform the search for similar products
             # In this case, k = 5 means that the search will return the top 5 most similar products to the query product
-            distances, indices = index.search(np.array([query_vector]), max_prod_recco)
+            distances, indices = index.search(np.array([query_vector]), max_prod_recco+1)
             # index.search(): This function performs the similarity search using the FAISS index
             # distance: Euclidean distance between the query vector and the top k most similar vectors
             # indices: positions of the most similar products in the descriptions list
         
             # Display similar products
+            st.write(f"Chosen Product:\n{clicked_product}")
+            st.divider()
+            st.write(f"Displaying {max_prod_recco} Suggestions")
             similar_products = [descriptions[i] for i in indices[0]]
             for idx, product in enumerate(similar_products, start=1):
                 st.write(f"**{idx}: {product}**")
