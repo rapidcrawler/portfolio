@@ -1,7 +1,7 @@
 import streamlit as st
 
 def complaint_classification():
-    st.title("Complaint Classification")
+    st.title("Cab Complaint Classification 🤬")
     st.divider()
 
     st.subheader(":hammer: :construction: WIP")

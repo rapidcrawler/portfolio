@@ -5,6 +5,7 @@ from sentence_transformers import SentenceTransformer
 import nbformat
 
 def product_recommendation():
+    st.title("Product Recommender 🛍️")
     # Step 1: Define product descriptions
     descriptions = [
         "This is a red cotton shirt with long sleeves",
@@ -59,9 +60,7 @@ def product_recommendation():
     if 'clicked_product' not in st.session_state:
         st.session_state.clicked_product = None
     
-    # Step 6: Show product selection radio button
-    st.title("Product Recommender")
-    
+    # Step 6: Show product selection radio button    
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Choose a product")

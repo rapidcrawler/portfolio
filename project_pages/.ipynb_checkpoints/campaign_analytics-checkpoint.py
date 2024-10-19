@@ -2,19 +2,19 @@ import streamlit as st
 import nbformat
 
 def campaign_analytics():
-    st.title("Campaign Analytics")
+    st.title("Campaign Analytics 📺")
     
-    st.header("Key Questions To Be Answered")
+    st.header("Key Questions That Can Be Answered Via This Analysis")
 
     st.write(
         """
-        1. Is there a relationship between Advertising budget and Sales?
-        2. How strong is the relationship between Advertising budget and Sales?
-        3. Which media are associated with sales?
-        4. How large is the association between each medium and sales?
-        5. How accurataely can we predict future sales?
-        6. Is the relationship linear?
-        7. Is there synergy among the advertising media?
+        1. __Relationship__: Is there a relationship between Advertising budget and Sales?
+        2. __Strength__: How strong is the relationship between Advertising budget and Sales?
+        3. __Selection__: Which media are associated with sales?
+        4. __Quantification__: How large is the association between each medium and sales?
+        5. __Reliability__: How accurataely can we predict future sales?
+        6. __Assumption__: Is the relationship linear?
+        7. __Insight__: Is there synergy among the advertising media?
         """
     )
 

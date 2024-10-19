@@ -27,10 +27,10 @@ st.set_page_config(
 # Sidebar for navigation
 st.sidebar.title("Navigation")
 project_list = [
-    "Home"
-    , "Campaign Analytics", "Product Recommendation"
-    , "Emoji Suggestion", "Smart Stores", "Loan Eligibility"
-    , "Complaint Classification", "eMail Classifier"
+    "🏘️Home"
+    , "Campaign Analytics📺", "Product Recommender🛍️"
+    , "Emoji Suggestion😇🧐", "Smart Stores🛒", "Loan Eligibility🏛️💰"
+    , "Cab Complaint Classification🤬", "eMail Classifier"
     , "Face Detection"
     
 ]

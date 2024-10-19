@@ -14,6 +14,8 @@ def home():
     with col2:
     
         st.title("Jaspreet Singh - Senior Data Scientist")
+        st.subheader("Ex JP Mogan | Ex MuSigma")
+        st.divider()
         st.write("**6+ years of experience in building advanced analytical tools for Fortune100 companies like Walmart, JP Morgan, Dubai Government, lululemon, etc.**")    
 
         # Contact Information
@@ -26,7 +28,7 @@ def home():
     # Summary Section
     st.header("Summary")
     st.write("""
-    Lead Data Scientist with 6+ years of experience in building advanced analytical tools for Fortune100 companies like Walmart, JP Morgan,
+    Senior Data Scientist with 6+ years of experience in building advanced analytical tools for Fortune100 companies like Walmart, JP Morgan,
     Emirates Global Aluminium, Dubai Department of Economy and Tourism, lululemon, etc. 
     Responsible for project planning and execution, team management, risk and issue management. 
     """)
@@ -72,7 +74,7 @@ def home():
     # """)
 
     # Skills Section
-    st.header("Skills")
+    st.header("🎯Skills")
     st.write("""
     - **Machine Learning**: Linear Regression, Logistic Regression, SVM, KNN, Decision Tree, Random Forest, Ensemble Models
     - **Deep Learning**: Neural Networks, CNN, RNN, Attention, BERT, NLP, Computer Vision, Transformers
@@ -80,6 +82,6 @@ def home():
     """)
 
     # Education Section
-    st.header("Education")
-    st.write("**M.Tech in AI & ML (2023 - 2025)** - BITS Pilani")
-    st.write("**B.Tech in Computer Science (2014 - 2018)** - LPU")
+    st.header("🎓Education")
+    st.write("- **M.Tech in AI & ML (2023 - 2025)** - BITS Pilani")
+    st.write("- **B.Tech in Computer Science (2014 - 2018)** - Lovely Professional University")
