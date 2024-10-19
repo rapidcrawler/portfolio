@@ -54,7 +54,7 @@ def emoji_suggestion():
         st.write(f"Suggested emojis for your text: {suggested_emojis}")
         
     st.divider()
-    st.caption(":blue[Future Updates] :sunglasses:")
+    st.caption(":loudspeaker: :blue[Future Updates] :loudspeaker:")
     st.caption(
         """
         1. Using Spacy's NER recognition to add more emojis related to object and places mentioned in the input text
