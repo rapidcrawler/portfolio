@@ -68,6 +68,8 @@ def product_recommendation():
     
     with col2:
         st.subheader("Similar products:")
+        max_prod_recco = st.slider('Similar Products To Recommend:', min_value=3, max_value=6, value=4)
+        # This sets the number of similar products (nearest neighbors) that you want to retrieve
         
         if clicked_product:    
             # This variable holds the index of the product that the user selected or clicked
@@ -80,17 +82,17 @@ def product_recommendation():
             # each product description in a high-dimensional space
         
             # Perform the search for similar products
-            k = 5  # This sets the number of similar products (nearest neighbors) that you want to retrieve
             # In this case, k = 5 means that the search will return the top 5 most similar products to the query product
-            distances, indices = index.search(np.array([query_vector]), k)
+            distances, indices = index.search(np.array([query_vector]), max_prod_recco)
             # index.search(): This function performs the similarity search using the FAISS index
             # distance: Euclidean distance between the query vector and the top k most similar vectors
             # indices: positions of the most similar products in the descriptions list
         
             # Display similar products
             similar_products = [descriptions[i] for i in indices[0]]
-            for product in similar_products:
-                st.write(f"**{product}**")
+            for idx, product in enumerate(similar_products, start=1):
+                st.write(f"**{idx}: {product}**")
+
             
             # Add reset option
             if st.button("Reset"):
