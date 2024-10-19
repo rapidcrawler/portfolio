@@ -34,42 +34,42 @@ def home():
     # Experience Section
     st.header("Experience")
 
-    # Job 3: Maaloomatiia
-    st.markdown('<a name="maaloomatiia"></a>', unsafe_allow_html=True)
-    st.text("")
-    st.text("")
-    st.subheader("Senior Data Scientist - Maaloomatiia")
-    st.write("**Sep 2023 - Present**")
-    st.write("""
-    - Built an NLP-based model to detect social trends, adopted by a global retail giant for the 2023 Black Friday sale.
-    - Implemented an in-store video analytics solution using YOLO for customer behavior analysis, optimizing store operations.
-    - Developed an N-BEATS model to forecast energy consumption in Dubai Metro, reducing resource shortages and saving $80K annually.
-    - Delivered an LLM solution based on Llama3-8b for cab complaints classification, reducing acknowledgment lead time by 66.67%.
-    - Created an XGBoost-based solution to predict overnight visitor arrivals for Dubai’s DET, optimizing marketing spends.
-    - Implemented sentiment analysis and text summarization to provide actionable insights for Dubai’s immigration services.
-    """)
+    # # Job 3: Maaloomatiia
+    # st.markdown('<a name="maaloomatiia"></a>', unsafe_allow_html=True)
+    # st.text("")
+    # st.text("")
+    # st.subheader("Senior Data Scientist - Maaloomatiia")
+    # st.write("**Sep 2023 - Present**")
+    # st.write("""
+    # - Built an NLP-based model to detect social trends, adopted by a global retail giant for the 2023 Black Friday sale.
+    # - Implemented an in-store video analytics solution using YOLO for customer behavior analysis, optimizing store operations.
+    # - Developed an N-BEATS model to forecast energy consumption in Dubai Metro, reducing resource shortages and saving $80K annually.
+    # - Delivered an LLM solution based on Llama3-8b for cab complaints classification, reducing acknowledgment lead time by 66.67%.
+    # - Created an XGBoost-based solution to predict overnight visitor arrivals for Dubai’s DET, optimizing marketing spends.
+    # - Implemented sentiment analysis and text summarization to provide actionable insights for Dubai’s immigration services.
+    # """)
 
-    # Job 2: JP Morgan
-    st.markdown('<a name="jpmc"></a>', unsafe_allow_html=True)
-    st.text("")
-    st.text("")
-    st.subheader("Senior Data Scientist - JP Morgan")
-    st.write("**Feb 2022 - Sep 2023**")
-    st.write("""
-    - Implemented a text classification model using TensorFlow to automate email categorization, reducing manual tagging efforts across 150+ mailboxes.
-    - Developed an XGBoost-based classification model to streamline client migration, reducing operational and maintenance costs.
-    """)
+    # # Job 2: JP Morgan
+    # st.markdown('<a name="jpmc"></a>', unsafe_allow_html=True)
+    # st.text("")
+    # st.text("")
+    # st.subheader("Senior Data Scientist - JP Morgan")
+    # st.write("**Feb 2022 - Sep 2023**")
+    # st.write("""
+    # - Implemented a text classification model using TensorFlow to automate email categorization, reducing manual tagging efforts across 150+ mailboxes.
+    # - Developed an XGBoost-based classification model to streamline client migration, reducing operational and maintenance costs.
+    # """)
 
-    # Job 1: Mu Sigma
-    st.markdown('<a name="musigma"></a>', unsafe_allow_html=True)
-    st.text("")
-    st.text("")
-    st.subheader("Data Scientist - Mu Sigma")
-    st.write("**Dec 2018 - Jan 2022**")
-    st.write("""
-    - Developed a Random Forest model to reduce unplanned machinery shutdowns for EGA, saving millions annually.
-    - Built a Random Forest model to predict cash withdrawal demand, reducing Out-of-Cash scenarios across ATMs.
-    """)
+    # # Job 1: Mu Sigma
+    # st.markdown('<a name="musigma"></a>', unsafe_allow_html=True)
+    # st.text("")
+    # st.text("")
+    # st.subheader("Data Scientist - Mu Sigma")
+    # st.write("**Dec 2018 - Jan 2022**")
+    # st.write("""
+    # - Developed a Random Forest model to reduce unplanned machinery shutdowns for EGA, saving millions annually.
+    # - Built a Random Forest model to predict cash withdrawal demand, reducing Out-of-Cash scenarios across ATMs.
+    # """)
 
     # Skills Section
     st.header("Skills")

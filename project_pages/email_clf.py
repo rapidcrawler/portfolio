@@ -2,6 +2,9 @@ import streamlit as st
 
 def email_clf():
     st.title("eMail Classifier")
-    st.write("[Code Notebook](https://github.com/rapidcrawler/hobby_projects/tree/main/email_clf)")
+
+    st.markdown("---")
+    st.write("[Code Notebook](https://github.com/rapidcrawler/portfolio/blob/main/project_pages/email_clf.py)")
+    
     
     
