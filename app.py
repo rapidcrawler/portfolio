@@ -24,8 +24,9 @@ st.set_page_config(
 # Sidebar for navigation
 st.sidebar.title("Navigation")
 project_list = [
-    "Home",  "Smart Stores", "Emoji Suggestion"
+    "Home"
     , "Campaign Analytics", "Product Recommendation"
+    , "Smart Stores", "Emoji Suggestion"    
     , "Complaint Classification", "eMail Classifier"
     
 ]
@@ -36,16 +37,17 @@ if page == project_list[0]:
     home()
     
 elif page == project_list[1]:
-    smart_store()
-    
-elif page == project_list[2]:
-    emoji_suggestion()
-    
-elif page == project_list[3]:
     campaign_analytics()
     
-elif page == project_list[4]:
+elif page == project_list[2]:
     product_recommendation()
+    
+elif page == project_list[3]:
+    smart_store() 
+    
+elif page == project_list[4]:
+    emoji_suggestion()
+    
 elif page == project_list[5]:
     complaint_classification()
     
