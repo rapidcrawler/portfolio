@@ -2,6 +2,10 @@ import streamlit as st
 
 def home():
     
+    st.title("Jaspreet Singh - Senior Data Scientist")
+    st.subheader("Ex JP Mogan | Ex MuSigma")
+    st.divider()
+    
     
     # Create two columns for image and name/introduction
     col1, col2 = st.columns([1, 3])  # Adjust the width ratio as needed
@@ -12,10 +16,6 @@ def home():
 
     # Add name and introduction in the second column
     with col2:
-    
-        st.title("Jaspreet Singh - Senior Data Scientist")
-        st.subheader("Ex JP Mogan | Ex MuSigma")
-        st.divider()
         st.write("**6+ years of experience in building advanced analytical tools for Fortune100 companies like Walmart, JP Morgan, Dubai Government, lululemon, etc.**")    
 
         # Contact Information
