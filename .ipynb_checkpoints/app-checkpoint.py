@@ -7,6 +7,8 @@ from project_pages.smart_store import smart_store
 from project_pages.email_clf import email_clf
 from project_pages.campaign_analytics import campaign_analytics
 from project_pages.product_recommendation import product_recommendation
+from project_pages.face_detect import face_detect
+
 
 
 # Set the page configuration
@@ -28,6 +30,7 @@ project_list = [
     , "Campaign Analytics", "Product Recommendation"
     , "Smart Stores", "Emoji Suggestion"    
     , "Complaint Classification", "eMail Classifier"
+    , "Face Detection"
     
 ]
 page = st.sidebar.selectbox("Choose a Project", project_list)
@@ -53,5 +56,8 @@ elif page == project_list[5]:
     
 elif page == project_list[6]:
     email_clf()
+
+elif page == project_list[7]:
+    face_detect()
     
     
