@@ -4,6 +4,22 @@ import nbformat
 def campaign_analytics():
     st.title("Campaign Analytics")
     
+    st.header("Key Questions To Be Answered")
+
+    st.write(
+        """
+        1. Is there a relationship between Advertising budget and Sales?
+        2. How strong is the relationship between Advertising budget and Sales?
+        3. Which media are associated with sales?
+        4. How large is the association between each medium and sales?
+        5. How accurataely can we predict future sales?
+        6. Is the relationship linear?
+        7. Is there synergy among the advertising media?
+        """
+    )
+
+    st.header("Below is the analysis done on Advertising data to answer above questions")
+    
     # Load the notebook content
     notebook_path = "./project_pages/model_campaign.ipynb"
     
