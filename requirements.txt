@@ -9,4 +9,3 @@ statsmodels
 ipykernel
 faiss-cpu
 sentence_transformers
-random
