@@ -32,8 +32,8 @@ project_list = [
     , "Campaign Analytics📺", "Product Recommender🛍️"
     , "Emoji Suggestion😇🧐", "Smart Stores🛒", "Loan Eligibility🏛️💰"
     , "Hot & Trendy🔥✨"
-    , "Cab Complaint Classification🤬", "eMail Classifier"
-    , "Face Detection"
+    # , "Cab Complaint Classification🤬", "eMail Classifier"
+    , "Live Face Detection"
     
 ]
 page = st.sidebar.selectbox("Choose a Project", project_list)

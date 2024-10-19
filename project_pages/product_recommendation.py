@@ -94,6 +94,8 @@ def product_recommendation():
             st.divider()
             st.write(f"Displaying {max_prod_recco} Suggestions")
             similar_products = [descriptions[i] for i in indices[0]]
+
+            # Skipping index 0, as index 0 is always the same text, that's being searched due to highest similarity with itself 
             for idx, product in enumerate(similar_products[1:], start=1):
                 st.write(f"**{idx}: {product}**")
 
