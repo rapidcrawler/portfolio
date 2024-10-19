@@ -7,5 +7,5 @@ seaborn
 scikit-learn
 statsmodels
 ipykernel
-faiss
+faiss-cpu
 sentence_transformers
