@@ -52,9 +52,14 @@ def emoji_suggestion():
         
     st.divider()
     st.caption(":blue[Future Updates] :sunglasses:")
-    st.write("Using Spacy's NER recognition to add more emojis related to object and places mentioned in the input text")
+    st.caption(
+        """
+        1. Using Spacy's NER recognition to add more emojis related to object and places mentioned in the input text
+        2. Replacing _Textblob with Vader_ for sentiment identification , for more precise results, specially mixture of emotions
+        """
+    )
     st.divider()
-    st.write("[Code Notebook](https://github.com/rapidcrawler/hobby_projects/tree/main/emoji_recommender)")
+    # st.write("[Code Notebook](https://github.com/rapidcrawler/hobby_projects/tree/main/emoji_recommender)")
 
 # Running the app
 if __name__ == "__main__":
