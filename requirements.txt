@@ -10,3 +10,4 @@ ipykernel
 faiss-cpu
 sentence_transformers
 textblob
+xgboost

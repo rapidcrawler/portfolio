@@ -8,6 +8,7 @@ from project_pages.email_clf import email_clf
 from project_pages.campaign_analytics import campaign_analytics
 from project_pages.product_recommendation import product_recommendation
 from project_pages.face_detect import face_detect
+from project_pages.loan_eligibility import loan_eligibility
 
 
 
@@ -28,7 +29,7 @@ st.sidebar.title("Navigation")
 project_list = [
     "Home"
     , "Campaign Analytics", "Product Recommendation"
-    , "Smart Stores", "Emoji Suggestion"    
+    , "Emoji Suggestion", "Smart Stores", "Loan Eligibility"
     , "Complaint Classification", "eMail Classifier"
     , "Face Detection"
     
@@ -46,18 +47,21 @@ elif page == project_list[2]:
     product_recommendation()
     
 elif page == project_list[3]:
-    smart_store() 
-    
-elif page == project_list[4]:
     emoji_suggestion()
     
+elif page == project_list[4]:
+    smart_store()
+
 elif page == project_list[5]:
-    complaint_classification()
+    loan_eligibility()
     
 elif page == project_list[6]:
+    complaint_classification()
+    
+elif page == project_list[7]:
     email_clf()
 
-elif page == project_list[7]:
+elif page == project_list[8]:
     face_detect()
     
     
