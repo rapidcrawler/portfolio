@@ -58,7 +58,7 @@ def campaign_analytics():
                             st.write(output['data']['text/html'], unsafe_allow_html=True)
 
     
-    st.markdown("---")
+    st.divider()
     # st.write("[Code Notebook](https://github.com/rapidcrawler/portfolio/blob/main/project_pages/campaign_analytics.py)")
     
     

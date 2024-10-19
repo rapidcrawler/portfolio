@@ -9,6 +9,7 @@ from project_pages.campaign_analytics import campaign_analytics
 from project_pages.product_recommendation import product_recommendation
 from project_pages.face_detect import face_detect
 from project_pages.loan_eligibility import loan_eligibility
+from project_pages.hat import hat
 
 
 
@@ -30,6 +31,7 @@ project_list = [
     "🏘️Home"
     , "Campaign Analytics📺", "Product Recommender🛍️"
     , "Emoji Suggestion😇🧐", "Smart Stores🛒", "Loan Eligibility🏛️💰"
+    , "Hot & Trendy🔥✨"
     , "Cab Complaint Classification🤬", "eMail Classifier"
     , "Face Detection"
     
@@ -56,12 +58,14 @@ elif page == project_list[5]:
     loan_eligibility()
     
 elif page == project_list[6]:
-    complaint_classification()
+    hat()
     
 elif page == project_list[7]:
-    email_clf()
+    complaint_classification()
 
 elif page == project_list[8]:
-    face_detect()
+    email_clf()
     
+elif page == project_list[9]:
+    face_detect()
     

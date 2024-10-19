@@ -1,27 +1,11 @@
 import streamlit as st
-import nbformat
 
-def campaign_analytics():
-    st.title("Campaign Analytics 📺")
-    
-    st.header("Key Questions That Can Be Answered Via This Analysis")
-
-    st.write(
-        """
-        1. __Relationship__: Is there a relationship between Advertising budget and Sales?
-        2. __Strength__: How strong is the relationship between Advertising budget and Sales?
-        3. __Selection__: Which media are associated with sales?
-        4. __Quantification__: How large is the association between each medium and sales?
-        5. __Reliability__: How accurataely can we predict future sales?
-        6. __Assumption__: Is the relationship linear?
-        7. __Insight__: Is there synergy among the advertising media?
-        """
-    )
-
-    st.header("Below is the analysis done on Advertising data to answer above questions")
+def hat():
+    st.title("Hot & Trendy🔥✨")
+    st.divider()
     
     # Load the notebook content
-    notebook_path = "./project_pages/model_campaign.ipynb"
+    notebook_path = "./project_pages/model_HAT.ipynb"
     
     # Read the notebook
     with open(notebook_path, "r", encoding="utf-8") as f:
@@ -59,6 +43,3 @@ def campaign_analytics():
 
     
     st.divider()
-    # st.write("[Code Notebook](https://github.com/rapidcrawler/portfolio/blob/main/project_pages/campaign_analytics.py)")
-    
-    
