@@ -1,4 +1,5 @@
 import streamlit as st
+import nbformat
 
 def hat():
     st.title("Hot & Trendy🔥✨")
