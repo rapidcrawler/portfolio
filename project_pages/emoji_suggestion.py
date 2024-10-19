@@ -17,6 +17,9 @@ def get_emoji_suggestions(text):
         emoji_suggestions += "😞 👎 😢"  # Negative sentiment emojis
     else:
         emoji_suggestions += "😐 🤔"  # Neutral sentiment emojis
+    
+    if text.lower() in ["usa", "india", "france", "japan", "america"]:
+        emoji_suggestions += " 🇺🇸 🇮🇳 🇫🇷 🇯🇵"  # Country flags
 
     # # Placeholder for future entity-based emoji suggestions using spaCy
     # # Entity-based emoji suggestions
