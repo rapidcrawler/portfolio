@@ -10,6 +10,7 @@ from project_pages.product_recommendation import product_recommendation
 from project_pages.face_detect import face_detect
 from project_pages.loan_eligibility import loan_eligibility
 from project_pages.hat import hat
+from project_pages.ega import ega
 
 
 
@@ -31,7 +32,7 @@ project_list = [
     "🏘️Home"
     , "Campaign Analytics📺", "Product Recommender🛍️"
     , "Emoji Suggestion😇🧐", "Smart Stores🛒", "Loan Eligibility🏛️💰"
-    , "Hot & Trendy🔥✨"    
+    , "Hot & Trendy🔥✨", 'Unplanned Halts🛠️'    
     , "Live Face Detection"
     # , "Cab Complaint Classification🤬", "eMail Classifier"
     
@@ -61,11 +62,14 @@ elif page == project_list[6]:
     hat()
     
 elif page == project_list[7]:
-    face_detect()
+    ega()
 
 elif page == project_list[8]:
-    complaint_classification()
+    face_detect()
     
 elif page == project_list[9]:
+    complaint_classification()
+
+elif page == project_list[10]:
     email_clf()
     
