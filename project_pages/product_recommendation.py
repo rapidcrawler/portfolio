@@ -164,8 +164,12 @@ def product_recommendation():
     st.caption(
         """
         1. __Technical Upgrade__: Using BERT's Word-Embedding for context aware transformation of words in product descriptions
-        2. __Technical Upgrade__: Using image object detection for missing description in product listings
-        3. __Cosmetic Changes__: Displaying product images along with description
+        2. __Technical Upgrade__: Improving search speed with better indexing:
+            2.1. Using IVF: This index partitions the vector space into cells (using clustering, e.g., k-means), and only a subset of these cells is searched. This speeds up search at the cost of some accuracy (approximate nearest neighbors)
+            2.2. HNSW: This is an efficient graph-based index that structures the vectors in a navigable graph, allowing fast search with high recall in large datasets
+            2.3. Quantization: Quantization refers to representing the vectors using fewer bits, reducing the memory footprint and speeding up the search process
+        3. __Technical Upgrade__: Using image object detection for missing description in product listings
+        4. __Cosmetic Changes__: Displaying product images along with description
         """
     )
     st.divider()
