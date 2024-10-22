@@ -19,7 +19,7 @@ def loan_eligibility():
     st.subheader("📋 Fill Below Form To Check you Loan Eligibility")
     
     # User Inputs
-    age = st.number_input('Applicant Age', min_value=18, max_value=100, value=30)
+    age = st.slider('Applicant Age', min_value=18, max_value=100, value=30)
     income = st.number_input('Applicant Income (Monthly)', min_value=0, value=30000)
     credit_score = st.number_input('Credit Score', min_value=300, max_value=850, value=650)
     loan_amount = st.number_input('Loan Amount', min_value=5000, max_value=1000000, value=50000)

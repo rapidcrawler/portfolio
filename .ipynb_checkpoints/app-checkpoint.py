@@ -32,7 +32,7 @@ project_list = [
     "🏘️Home"
     , "Campaign Analytics📺", "Product Recommender🛍️"
     , "Emoji Suggestion😇🧐", "Smart Stores🛒", "Loan Eligibility🏛️💰"
-    , "Hot & Trendy🔥✨", 'Unplanned Halts🛠️'    
+    , "Hot & Trendy🔥✨", 'Unplanned Halts🛠️'
     , "Live Face Detection"
     # , "Cab Complaint Classification🤬", "eMail Classifier"
     
