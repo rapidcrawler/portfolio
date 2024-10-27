@@ -42,6 +42,7 @@ def ega():
     col5, col6 = st.columns(2)
     with col5:
         st.image(image_5, caption='Solution Outcome', use_column_width=True)
+        st.write("Via: Predicting Risk-to-Failure in hourly basis for efficient pro-active maintenance")
     with col6:
         st.image(image_6, caption='Monthly Monitoring', use_column_width=True)
         st.write("Via: Avoiding Overuse & Energy-Efficient Shutdowns and Automating Cathode Health Chekups")
