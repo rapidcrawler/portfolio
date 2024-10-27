@@ -44,6 +44,7 @@ def ega():
         st.image(image_5, caption='Solution Outcome', use_column_width=True)
     with col6:
         st.image(image_6, caption='Monthly Monitoring', use_column_width=True)
+        st.wrtie("Via: Avoiding Overuse & Energy-Efficient Shutdowns and Automating Cathode Health Chekups")
 
     # Add a divider and section for IoT Sensors at the end
     st.divider()
