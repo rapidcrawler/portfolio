@@ -2,14 +2,18 @@ import streamlit as st
 
 def smart_store():
     st.title("Smart Stores 🛒")
-    st.subheader(
+    st.caption(
         """
-        1) Scan-Go Push
+        Usecases:
+        1) Scan-Go Adoption
         2) Queue Optimization
-        3) Counter Efficiency Monitoring
+        3) Billing Counter Efficiency Monitoring
         4) Aisle Heat-Map
         """
     )
+
+    st.divider()
+    st.subheader("Problem Definition")
     
     # Create two columns for image and name/introduction
     col1, col2, col3 = st.columns([3,1,3])  # Adjust the width ratio as needed
