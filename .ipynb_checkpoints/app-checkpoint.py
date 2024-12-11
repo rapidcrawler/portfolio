@@ -11,6 +11,7 @@ from project_pages.face_detect import face_detect
 from project_pages.loan_eligibility import loan_eligibility
 from project_pages.hat import hat
 from project_pages.ega import ega
+from project_pages.cust_churn import cust_churn
 
 
 
@@ -34,7 +35,8 @@ project_list = [
     , "Emoji Suggestion😇🧐", "Smart Stores🛒", "Loan Eligibility🏛️💰"
     , "Hot & Trendy🔥✨", 'Unplanned Halts🛠️'
     , "Live Face Detection"
-    # , "Cab Complaint Classification🤬", "eMail Classifier"
+    , "Cab Complaint Classification🤬", "eMail Classifier"
+    , "Customer Churn 📉"
     
 ]
 page = st.sidebar.selectbox("Choose a Project", project_list)
@@ -72,4 +74,7 @@ elif page == project_list[9]:
 
 elif page == project_list[10]:
     email_clf()
+
+elif page == project_list[11]:
+    cust_churn()
     
